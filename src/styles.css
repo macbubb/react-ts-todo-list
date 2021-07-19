@@ -1,0 +1,51 @@
+.App {
+	font-family: sans-serif;
+	text-align: left;
+}
+body {
+	background: #000;
+	color: #fff;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 10rem;
+	margin-bottom: 0;
+	margin-left: 2rem;
+}
+
+p,
+input {
+	margin-left: 2rem;
+}
+
+ul,
+p {
+	font-size: 3rem;
+}
+
+li {
+	cursor: pointer;
+	list-style: none;
+}
+
+input {
+	background: #000;
+	color: #fff;
+	border: 0;
+	border-bottom: 5px solid #fff;
+	font-size: 3rem;
+}
+
+button {
+	background: #000;
+	color: #fff;
+	font-size: 3rem;
+	border: 5px #fff solid;
+	margin-left: 2rem;
+	text-transform: uppercase;
+	padding: 0.5rem;
+}
+
+input:focus {
+	outline: 0px #fff solid;
+}
