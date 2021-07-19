@@ -1,5 +1,6 @@
 import "./styles.css";
 import React, { useState } from "react";
+import { DragDropContext } from "react-beautiful-dnd";
 
 export default function App() {
 	type Place = "home" | "outside" | "store";
@@ -58,6 +59,7 @@ export default function App() {
 			<ul>
 				{todoToday.map((task: Todo) => (
 					<li
+						key={task.text}
 						style={task.done ? { textDecoration: "line-through" } : {}}
 						onClick={() => toggleDone(task.text)}
 					>
